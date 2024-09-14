@@ -28,7 +28,7 @@ def download_map_tiles(base_url, c, save_path):
 
 
 # c = 5 Game Map // c = 3 Realistic Map
-c = 5
-save_path = 'img/game_map'
+c = 3
+save_path = 'img/realistic_map'
 
 download_map_tiles(base_url='https://static.satisfactory-calculator.com/imgMap/gameLayer/EarlyAccess',c=c,save_path=save_path)
